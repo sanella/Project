@@ -33,6 +33,7 @@ public class Article {
 		this.content = content;
 	}
 
+	//drugi konstruktor koji prima Node
 	public Article(Node current) {
 
 		if (current instanceof Element) {
